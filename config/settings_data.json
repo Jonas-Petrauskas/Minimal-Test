@@ -45,9 +45,13 @@
         "settings": {
           "header_search_enable": true,
           "logo_max_width": "60",
+          "nav_menu": "main-menu",
           "nav_below_logo": true,
           "left_aligned_logo": false,
-          "show_header_lines": false
+          "show_header_lines": false,
+          "show_announcement": true,
+          "header_text": "Announce something here",
+          "announcement_link": ""
         }
       },
       "footer": {
@@ -62,6 +66,7 @@
           "footer-1": {
             "type": "menu",
             "settings": {
+              "menu_title": "Links",
               "menu": "footer"
             }
           },
@@ -73,6 +78,7 @@
           "footer-3": {
             "type": "newsletter",
             "settings": {
+              "subtext": "<p>Sign up for the latest news, offers and styles<\/p>"
             }
           }
         },
@@ -92,34 +98,40 @@
           "slider-0": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/inside-weather-Uxqlfigh6oE-unsplash.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 30,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
             }
           },
           "slider-1": {
             "type": "image",
             "settings": {
-            }
-          },
-          "slider-2": {
-            "type": "image",
-            "settings": {
-            }
-          },
-          "slider-3": {
-            "type": "image",
-            "settings": {
+              "image": "shopify:\/\/shop_images\/cement-candle-holders-2_1024x1024_2x_0ea3c724-a04e-48d8-a80f-9d9871f1f64c.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 30,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
         "block_order": [
           "slider-0",
-          "slider-1",
-          "slider-2",
-          "slider-3"
+          "slider-1"
         ],
         "settings": {
+          "slider_height": "small",
           "slider_autorotate": false,
           "slider_autorotate_rate": 5,
-          "slider_home_transition": "fade"
+          "slider_home_transition": "fade",
+          "text_size": "medium"
         }
       },
       "product-template": {
@@ -158,21 +170,25 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-1": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-2": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-3": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           }
         },
@@ -192,21 +208,25 @@
           "collection-list-1-0": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-1-1": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-1-2": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-1-3": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           }
         },
@@ -223,6 +243,8 @@
       "newsletter": {
         "type": "newsletter",
         "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
           "color_bg": "#eaebea"
         }
       }
