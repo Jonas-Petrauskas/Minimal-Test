@@ -247,13 +247,21 @@
           "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
           "color_bg": "#eaebea"
         }
+      },
+      "1639581279f335d781": {
+        "type": "our-mission-text",
+        "settings": {
+          "headline": "Type here",
+          "mission-text": "<p>Type here<\/p>"
+        }
       }
     },
     "content_for_index": [
       "slider",
       "collection-list",
       "collection-list-1",
-      "newsletter"
+      "newsletter",
+      "1639581279f335d781"
     ]
   },
   "presets": {
