@@ -143,7 +143,9 @@
           "product_thumbnails_position": "right",
           "show_extra_tab": false,
           "extra_tab_content": "",
-          "social_sharing": false
+          "social_sharing": false,
+          "enable_payment_button": true,
+          "add_to_cart_width": "small"
         }
       },
       "article-template": {
@@ -170,13 +172,13 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "axle-ceiling-lamp"
             }
           },
           "collection-list-1": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           },
           "collection-list-2": {
@@ -253,6 +255,16 @@
         "settings": {
           "headline": "Our Mission",
           "mission-text": "<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt un labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "vendor_enable": false,
+          "show_sale_circle": false,
+          "center_grid_link": false
         }
       }
     },
