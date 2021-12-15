@@ -1,0 +1,14 @@
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: right;
+  width: 100%;
+}
+
+.heart-icon > a, .cart-icon > a, .search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}

@@ -209,7 +209,8 @@ $max: max-width;
 {% if settings.enable_wide_layout %}
   $siteWidth: 1340px;
 {% else %}
-  $siteWidth: 1030px;
+  // $siteWidth: 1030px;
+  $siteWidth: 1624px;
 {% endif %}
 
 $gutter: 30px;
@@ -397,6 +398,11 @@ body {
   max-width: $siteWidth;
   margin: 0 auto;
   padding: 0 ($gridGutter / 2);
+  // new css added below
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
   @include at-query ($min, $small) {
     padding: 0 $gridGutter;
@@ -716,6 +722,7 @@ $class-type: unquote(".");
 #{$class-type}grid--full {
   @extend #{$class-type}grid;
   margin-left: 0;
+  
 
   > #{$class-type}grid__item {
     padding-left: 0;
@@ -2183,11 +2190,13 @@ $socialIconFontStack: "icons";
 
 /*================ Module | Site Header ================*/
 .site-header {
-  padding: 40px 0;
+  // Took the padding out from Header
+  // padding: 40px 0;
   background-color: $colorHeader;
 
   @include at-query ($min, $large) {
-    padding: $gutter 0;
+    // Took the padding out from Header
+    // padding: $gutter 0;
 
     .post-large--display-table {
       min-height: 86px;
@@ -2264,8 +2273,11 @@ $socialIconFontStack: "icons";
 .site-nav {
   @include accentFontStack;
   cursor: default;
-  margin: 0 auto;
-  text-align: center;
+  // margin: 0 auto;
+  text-align: left;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 
   li {
     margin: 0;
