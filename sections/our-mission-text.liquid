@@ -1,0 +1,36 @@
+<div class="mission-text-container">
+  <h1>{{section.settings.headline}}</h1>
+ {{section.settings.mission-text}}
+</div>
+
+
+{% schema %}
+   {
+  	"name": "Mission-text",
+  	"settings": [{
+  			"type": "text",
+  			"id": "headline",
+  			"label": "Headline",
+  			"default": "Type here"
+  		},
+
+  		{
+  			"type": "richtext",
+  			"id": "mission-text",
+  			"label": "Text",
+            "default": "<p>Type here</p>"
+  		}
+  	],
+  	"presets": [{
+  		"name": "Missio paragraph ",
+  		"category": "Advanced"
+  	}]
+  }
+  
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
