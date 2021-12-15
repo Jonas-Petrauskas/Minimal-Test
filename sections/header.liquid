@@ -44,11 +44,14 @@
 
 <div data-section-id="{{ section.id }}" data-section-type="header-section">
   <div class="header-bar">
+
+    
+
     <div class="wrapper medium-down--hide">
       <div class="post-large--display-table">
 
         {% if section.settings.show_announcement or section.settings.header_search_enable %}
-          <div class="header-bar__left post-large--display-table-cell">
+          <div class="header-bar__center post-large--display-table-cell">
 
             {% comment %}
               Add social links to header
@@ -79,7 +82,7 @@
           </div>
         {% endif %}
 
-        <div class="header-bar__right post-large--display-table-cell">
+        <!-- <div class="header-bar__right post-large--display-table-cell">
 
           {% if shop.customer_accounts_enabled %}
             <ul class="header-bar__module header-bar__module--list">
@@ -124,7 +127,7 @@
             {% endif %}
           {% endif %}
 
-        </div>
+        </div> -->
       </div>
     </div>
 
