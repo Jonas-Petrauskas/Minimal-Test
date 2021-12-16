@@ -278,6 +278,13 @@
           "collection": "frontpage",
           "product_count": 4
         }
+      },
+      "163966831968ff1265": {
+        "type": "company-information",
+        "settings": {
+          "section-title": "What Defines",
+          "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png"
+        }
       }
     },
     "content_for_index": [
@@ -286,7 +293,8 @@
       "1639641019193457b0",
       "collection-list",
       "collection-list-1",
-      "newsletter"
+      "newsletter",
+      "163966831968ff1265"
     ]
   },
   "presets": {
