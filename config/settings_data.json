@@ -266,6 +266,13 @@
           "show_sale_circle": false,
           "center_grid_link": false
         }
+      },
+      "1639641019193457b0": {
+        "type": "product-list",
+        "settings": {
+          "title": "Best Sellers",
+          "products": "kandy-oversized-unisex-hoodie"
+        }
       }
     },
     "content_for_index": [
@@ -273,7 +280,8 @@
       "1639581279f335d781",
       "collection-list",
       "collection-list-1",
-      "newsletter"
+      "newsletter",
+      "1639641019193457b0"
     ]
   },
   "presets": {
