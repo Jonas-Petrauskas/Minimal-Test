@@ -271,7 +271,8 @@
         "type": "product-list",
         "settings": {
           "title": "Best Sellers",
-          "products": "kandy-oversized-unisex-hoodie"
+          "collection": "frontpage",
+          "product_count": 4
         }
       }
     },
