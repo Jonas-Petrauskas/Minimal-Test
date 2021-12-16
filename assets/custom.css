@@ -30,3 +30,10 @@
   display: flex;
   flex-direction: row;
 }
+
+.information-container > div {
+  display: flex;
+  flex-direction: collumn;
+  align-items: center;
+  justify-content: center;
+}
