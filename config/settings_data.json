@@ -283,15 +283,18 @@
         "type": "company-information",
         "settings": {
           "section-title": "What Defines",
-          "title1": "alsjhdaksjhkjasdhfksjdd",
-          "title2": "",
-          "title3": "",
-          "title4": "",
-          "rich-text1": "<p>Type herealshjdlajksdlkjalsjdlasjkdlkajsldkjasldjkalskjdlaskjdlaskdj<\/p>",
+          "title1": "QUALITY PRODUCTS",
+          "title2": "WELL-PRICED",
+          "title3": "BOLD DESIGN",
+          "title4": "2 YEAR WARRANTY",
+          "rich-text1": "<p>Type here<\/p>",
           "rich-text2": "<p>Type here<\/p>",
           "rich-text3": "<p>Type here<\/p>",
           "rich-text4": "<p>Type here<\/p>",
-          "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png"
+          "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png",
+          "image2": "shopify:\/\/shop_images\/forgeicons-03_2x_0a88f546-967b-454f-a823-e4cd043d048b.png",
+          "image3": "shopify:\/\/shop_images\/forgeicons-04_2x_54b5c184-26de-4e39-b95b-828f114fc650.png",
+          "image4": "shopify:\/\/shop_images\/forgeicons-03_2x_d5fc8351-52e8-4857-9642-9e179a8bb204.png"
         }
       }
     },
