@@ -26,21 +26,6 @@
   text-align: center;
 }
 
-.information-container {
-  display: flex;
-  flex-direction: row;
-}
-/* 
-.information-container > div {
-  display: flex;
-  flex-direction: collumn;
-  align-items: center;
-  justify-content: center;
-} */
-
-.information-collumn{
-  display: flex;
-  flex-direction: row;
-/*   align-items: center; */
-/*   justify-content: center; */
+.information-columns-container{
+  border: 2px solid red;
 }
