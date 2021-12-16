@@ -281,7 +281,7 @@
         "type": "product-list",
         "settings": {
           "title": "Best Sellers",
-          "collection": "",
+          "collection": "frontpage",
           "product_count": 4
         }
       }
