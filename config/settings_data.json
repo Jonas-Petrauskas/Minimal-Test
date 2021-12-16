@@ -283,6 +283,14 @@
         "type": "company-information",
         "settings": {
           "section-title": "What Defines",
+          "title1": "alsjhdaksjhkjasdhfksjdd",
+          "title2": "",
+          "title3": "",
+          "title4": "",
+          "rich-text1": "<p>Type herealshjdlajksdlkjalsjdlasjkdlkajsldkjasldjkalskjdlaskjdlaskdj<\/p>",
+          "rich-text2": "<p>Type here<\/p>",
+          "rich-text3": "<p>Type here<\/p>",
+          "rich-text4": "<p>Type here<\/p>",
           "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png"
         }
       }
