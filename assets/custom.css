@@ -28,6 +28,8 @@
 
 .information-columns-container{
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   text-align: center;
   border: 2px solid red;
