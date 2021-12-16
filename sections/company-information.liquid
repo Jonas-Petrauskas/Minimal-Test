@@ -1,7 +1,48 @@
+<div class="information-container-img">
+  <div>
+    <img src="{{section.settings.image1| img_url:'master'}}"/>
+  </div>
+  <div>
+    <img src="{{section.settings.image2| img_url:'master'}}"/>
+  </div>
+  <div>
+    <img src="{{section.settings.image3| img_url:'master'}}"/>
+  </div>
+  <div>
+    <img src="{{section.settings.image4| img_url:'master'}}"/>
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [
+      { 
+        "type": "text",
+        "id": "section-title" ,
+        "label": "Section Title"
+      },
+      {
+        "type": "image_picker",
+        "id": "image1",
+        "label": "image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "image 2"
+      },
+	  {
+        "type": "image_picker",
+        "id": "image3",
+        "label": "image 3"
+      },
+	  {
+        "type": "image_picker",
+        "id": "image4",
+        "label": "image 4"
+      }
+  ]
   }
 {% endschema %}
 
