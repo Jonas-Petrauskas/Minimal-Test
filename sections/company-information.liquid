@@ -1,19 +1,21 @@
-<h1>{{section.settings.section-title}}</h1>
+  <div>
+    <h1>{{section.settings.section-title}}</h1>
+  </div>
 
-<div class="information-container-img">
-  <div>
-    <img src="{{section.settings.image1| img_url:'master'}}"/>
+  <div class="information-container-img">
+    <div>
+      <img src="{{section.settings.image1| img_url:'master'}}"/>
+    </div>
+    <div>
+      <img src="{{section.settings.image2| img_url:'master'}}"/>
+    </div>
+    <div>
+      <img src="{{section.settings.image3| img_url:'master'}}"/>
+    </div>
+    <div>
+      <img src="{{section.settings.image4| img_url:'master'}}"/>
+    </div>
   </div>
-  <div>
-    <img src="{{section.settings.image2| img_url:'master'}}"/>
-  </div>
-  <div>
-    <img src="{{section.settings.image3| img_url:'master'}}"/>
-  </div>
-  <div>
-    <img src="{{section.settings.image4| img_url:'master'}}"/>
-  </div>
-</div>
 
 {% schema %}
   {
@@ -23,6 +25,14 @@
         "type": "text",
         "id": "section-title" ,
         "label": "Section Title"
+      },
+      {
+
+        "type": "richtext",
+        "id": "information-text",
+        "label": "Text",
+        "default": "<p>Type here</p>"
+
       },
       {
         "type": "image_picker",
