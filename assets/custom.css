@@ -37,3 +37,7 @@
 .feature-columns-img{
   border: 2px solid pink;
 }
+
+.feature-columns-textblock{
+  border: 2px solid blue;
+}
