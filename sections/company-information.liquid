@@ -2,26 +2,34 @@
     <h1>{{section.settings.section-title}}</h1>
   </div>
 
-  <div class="information-container">
-    <div class="information-collumn">
-      <img src="{{section.settings.image1| img_url:'master'}}"/>
-      <h3>{{section.settings.title1}}</h3>
-      {{section.settings.rich-text1}}
+  <div class="information-columns-container">
+    <div class="information-collumns-item">
+      <img class="feature-columns-img" src="{{section.settings.image1| img_url:'master'}}"/> 
+      <div>
+        <h3>{{section.settings.title1}}</h3>
+        {{section.settings.rich-text1}}
+      </div>
+    </div>  
+    <div class="information-collumn-item">
+      <img class="feature-columns-img" src="{{section.settings.image2| img_url:'master'}}"/>
+      <div>  
+        <h3>{{section.settings.title2}}</h3>
+        {{section.settings.rich-text2}}
+      </div>  
     </div>
-    <div class="information-collumn">
-      <img src="{{section.settings.image2| img_url:'master'}}"/>
-      <h3>{{section.settings.title2}}</h3>
-      {{section.settings.rich-text2}}
+    <div class="information-collumn-item">
+      <img class="feature-columns-img" src="{{section.settings.image3| img_url:'master'}}"/>
+      <div>  
+        <h3>{{section.settings.title3}}</h3>
+        {{section.settings.rich-text3}}
+      </div>
     </div>
-    <div class="information-collumn">
-      <img src="{{section.settings.image3| img_url:'master'}}"/>
-      <h3>{{section.settings.title3}}</h3>
-      {{section.settings.rich-text3}}
-    </div>
-    <div class="information-collumn">
-      <img src="{{section.settings.image4| img_url:'master'}}"/>
-      <h3>{{section.settings.title4}}</h3>
-      {{section.settings.rich-text4}}
+    <div class="information-collumn-item">
+      <img class="feature-columns-img" src="{{section.settings.image4| img_url:'master'}}"/>
+      <div>
+        <h3>{{section.settings.title4}}</h3>
+        {{section.settings.rich-text4}}
+      </div>
     </div>
   </div>
 
