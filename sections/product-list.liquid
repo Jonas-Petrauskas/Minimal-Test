@@ -1,30 +1,28 @@
 <div class="mission-text-container">
  {{section.settings.headline}}
- {{section.settings.mission-text}}
 </div>
 
 
 {% schema %}
-   {
-  	"name": "Mission-text",
-  	"settings": [{
-  			"type": "product",
-  			"id": "headline",
-  			"label": "Headline"
-  		},
-
-  		{
-  			"type": "richtext",
-  			"id": "mission-text",
-  			"label": "Text",
-            "default": "<p>Type here</p>"
-  		}
-  	],
-  	"presets": [{
-  		"name": "Best Sellers ",
-  		"category": "Advanced"
-  	}]
-  }
+ {
+ 	"name": "Mission-text",
+ 	"settings": [{
+ 			"type": "text",
+ 			"id": "title",
+ 			"label": "heading",
+ 			"default": "Best Sellers"
+ 		},
+ 		{
+ 			"type": "product",
+ 			"id": "products",
+ 			"label": "Products"
+ 		}
+ 	],
+ 	"presets": [{
+ 		"name": "Best Sellers ",
+ 		"category": "Advanced"
+ 	}]
+ }
   
 {% endschema %}
 
