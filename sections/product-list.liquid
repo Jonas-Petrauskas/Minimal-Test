@@ -30,7 +30,13 @@
     
     {% for product in collection.products limit: product_limit %}
       <div class="grid__item {{collection_item_width}} text-center">
-        {% include 'collection-grid-item' with collection_width: collection_width %}
+            <a href="{{ product.url | within: collection }}">
+            <img class="img-explore" src="{{ product.featured_image | img_url: 'master'}}">
+            <div class="product-card-text">
+            <h4 class="product-title-collection-slider">{{ product.title }}</h4>
+            <p class="product-price-collection-slider">{{ product.price | money }}</p>
+            </div>
+          </a>
       </div>
     {% endfor %}
     
