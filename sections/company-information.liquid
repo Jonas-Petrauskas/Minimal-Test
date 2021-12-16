@@ -7,28 +7,28 @@
       <img class="information-columns-img" src="{{section.settings.image1| img_url:'master'}}"/> 
       <div class="information-columns-textblock">
         <h3>{{section.settings.title1}}</h3>
-        <p>{{section.settings.rich-text1}}</p>
+        {{section.settings.rich-text1}}
       </div>
     </div>  
     <div class="information-columns-item">
       <img class="information-columns-img" src="{{section.settings.image2| img_url:'master'}}"/>
       <div class="information-columns-textblock">  
         <h3>{{section.settings.title2}}</h3>
-        <p>{{section.settings.rich-text2}}</p>
+        {{section.settings.rich-text2}}
       </div>  
     </div>
     <div class="information-columns-item">
       <img class="information-columns-img" src="{{section.settings.image3| img_url:'master'}}"/>
       <div class="information-columns-textblock">  
         <h3>{{section.settings.title3}}</h3>
-        <p>{{section.settings.rich-text3}}</p>
+        {{section.settings.rich-text3}}
       </div>
     </div>
     <div class="information-columns-item">
       <img class="information-columns-img" src="{{section.settings.image4| img_url:'master'}}"/>
       <div class="information-columns-textblock">
         <h3>{{section.settings.title4}}</h3>
-        <p>{{section.settings.rich-text4}}</p>
+        {{section.settings.rich-text4}}
       </div>
     </div>
   </div>
@@ -64,27 +64,35 @@
       },
       {
 
-        "type": "text",
+        "type": "richtext",
         "id": "rich-text1",
-        "label": "Rich Text 1"
+        "label": "Rich Text 1",
+        "default": "<p>Type here</p>"
+
       },
 	  {
 
-        "type": "text",
+        "type": "richtext",
         "id": "rich-text2",
-        "label": "Rich Text 2"
+        "label": "Rich Text 2",
+        "default": "<p>Type here</p>"
+
       },
       {
 
-        "type": "text",
+        "type": "richtext",
         "id": "rich-text3",
-        "label": "Rich Text 3"
+        "label": "Rich Text 3",
+        "default": "<p>Type here</p>"
+
       },
       {
 
-        "type": "text",
+        "type": "richtext",
         "id": "rich-text4",
-        "label": "Rich Text 4"
+        "label": "Rich Text 4",
+        "default": "<p>Type here</p>"
+
       },
       {
         "type": "image_picker",
