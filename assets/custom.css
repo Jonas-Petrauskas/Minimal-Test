@@ -37,6 +37,7 @@
 
 .information-collumns-item {
   border: 2px solid green;
+  width: 100%;
 }
 
 .feature-columns-img{
