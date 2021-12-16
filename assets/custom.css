@@ -29,3 +29,7 @@
 .information-columns-container{
   border: 2px solid red;
 }
+
+.information-collumns-item {
+  border: 2px solid green;
+}
