@@ -168,6 +168,7 @@
       },
       "collection-list": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "collection-list-0": {
             "type": "collection",
@@ -206,6 +207,7 @@
       },
       "collection-list-1": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "collection-list-1-0": {
             "type": "collection",
@@ -274,6 +276,14 @@
           "collection": "frontpage",
           "product_count": 4
         }
+      },
+      "1639658905c2a3e174": {
+        "type": "product-list",
+        "settings": {
+          "title": "Best Sellers",
+          "collection": "",
+          "product_count": 4
+        }
       }
     },
     "content_for_index": [
@@ -282,7 +292,8 @@
       "1639641019193457b0",
       "collection-list",
       "collection-list-1",
-      "newsletter"
+      "newsletter",
+      "1639658905c2a3e174"
     ]
   },
   "presets": {
