@@ -30,7 +30,7 @@
     
     {% for featured in collection.products limit: product_limit %}
       <div class="grid__item {{collection_item_width}} text-center">
-                 {% include 'product-grid-item' %}
+                 {% include 'product-grid-item' with product_width: product_width %}
 
       </div>
     {% endfor %}
