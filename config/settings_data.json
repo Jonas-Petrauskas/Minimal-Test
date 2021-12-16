@@ -168,6 +168,7 @@
       },
       "collection-list": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "collection-list-0": {
             "type": "collection",
@@ -206,6 +207,7 @@
       },
       "collection-list-1": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "collection-list-1-0": {
             "type": "collection",
@@ -269,6 +271,7 @@
       },
       "1639641019193457b0": {
         "type": "product-list",
+        "disabled": true,
         "settings": {
           "title": "Best Sellers",
           "collection": "frontpage",
