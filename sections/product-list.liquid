@@ -29,7 +29,7 @@
     {%- assign product_limit = section.settings.product_count -%}
     
     {% for product in collection.products limit: product_limit %}
-      <div class="grid__item {{collection_item_width}} text-center" {{ block.shopify_attributes }}>
+      <div class="grid__item {{collection_item_width}} text-center">
         {% include 'collection-grid-item' with collection_width: collection_width %}
       </div>
     {% endfor %}
