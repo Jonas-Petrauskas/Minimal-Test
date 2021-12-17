@@ -309,8 +309,9 @@
           "716c384a-da98-4993-ada8-51967012f315": {
             "type": "text_block",
             "settings": {
-              "title1": "",
-              "rich-text1": "<p>Type here<\/p>"
+              "title1": "2 YEAR WARRANTY",
+              "rich-text1": "<p>We support your purchase the entire way, backed by our UK-based support team, to ensure you're taken case of.<\/p>",
+              "image1": "shopify:\/\/shop_images\/forgeicons-03_2x_d5fc8351-52e8-4857-9642-9e179a8bb204.png"
             }
           }
         },
