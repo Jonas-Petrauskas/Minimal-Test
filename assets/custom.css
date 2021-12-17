@@ -52,6 +52,7 @@
 .information-columns-textblock{
 /*   display: flex; */
 /*   flex-direction: column; */
+  text-align: center;
   border: 2px solid blue;
 }
 
