@@ -40,7 +40,7 @@
 }
 
 .information-columns-img{
-  max-width: 150px;
+  max-width: 150px !important;
 /*   width: 100%; */
   /*   border: 2px solid pink; */
 }
