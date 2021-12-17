@@ -33,7 +33,7 @@
 /*   flex-direction: row; */
   text-align: center;
   border: 2px solid red;
-  width: 80%;
+/*   width: 80%; */
   margin: auto;
 }
 
@@ -42,19 +42,16 @@
   flex-direction: column;
   border: 2px solid green;
   padding: 0 10px 0 10px;
-  width: 100%;
 }
 
 .information-columns-img{
   border: 2px solid pink;
-  width: 100%;
 }
 
 .information-columns-textblock{
   display: flex;
   flex-direction: column;
   border: 2px solid blue;
-  width: 100%;
 }
 
 .information-columns-textblock p {
@@ -64,7 +61,3 @@
 .header-container {
   text-align: center;
 }
-/* ..information-columns-textblock p {
-  width: 60%;
-  text-align: center;
-} */
