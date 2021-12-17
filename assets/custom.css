@@ -85,14 +85,14 @@
 }
 
 .grid-left-upper{
-/*   display:flex;
-  flex-direction: row; */
+  display:flex;
+  flex-direction: row;
   border: 2px solid blue;
 }
 
 .grid-left-down{
-/*     display:flex;
-  flex-direction: row; */
+    display:flex;
+  flex-direction: row;
   border: 2px solid pink;
 
 }
