@@ -285,29 +285,29 @@
           "d6fef179-aac8-4fb1-aaa9-72c8ac571550": {
             "type": "text_block",
             "settings": {
-              "section-title": "QUALITY PRODUCTS",
-              "rich-text1": "<p>Eve<\/p>",
+              "title1": "QUALOTY PRODUCTS",
+              "rich-text1": "<p>Everything is designed, prototyped & tested in-house production. We do not drop ship or private label our products.<\/p>",
               "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png"
             }
           },
           "a4424511-44ca-43fc-9475-654c8afcb5bb": {
             "type": "text_block",
             "settings": {
-              "section-title": "",
+              "title1": "",
               "rich-text1": "<p>Type here<\/p>"
             }
           },
           "9f1cc29b-995a-4144-b233-0044b2300efd": {
             "type": "text_block",
             "settings": {
-              "section-title": "",
+              "title1": "",
               "rich-text1": "<p>Type here<\/p>"
             }
           },
           "716c384a-da98-4993-ada8-51967012f315": {
             "type": "text_block",
             "settings": {
-              "section-title": "",
+              "title1": "",
               "rich-text1": "<p>Type here<\/p>"
             }
           }
