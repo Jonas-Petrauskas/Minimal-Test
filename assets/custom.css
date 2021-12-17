@@ -74,3 +74,8 @@
   grid-template-columns: repeat(5, 1fr);
   border: 2px solid red;
 }
+
+.grid-left-img{
+  display: flex;
+  flex-direction: row;
+}
