@@ -301,8 +301,9 @@
           "9f1cc29b-995a-4144-b233-0044b2300efd": {
             "type": "text_block",
             "settings": {
-              "title1": "",
-              "rich-text1": "<p>Type here<\/p>"
+              "title1": "BOLD DESIGN",
+              "rich-text1": "<p>All our products are designed to be  bold statement pieces, that fit any occasion.<\/p>",
+              "image1": "shopify:\/\/shop_images\/forgeicons-04_2x_54b5c184-26de-4e39-b95b-828f114fc650.png"
             }
           },
           "716c384a-da98-4993-ada8-51967012f315": {
