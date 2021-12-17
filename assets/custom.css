@@ -56,7 +56,12 @@
 /*   border: 2px solid blue; */
 }
 
+.information-columns-textblock h3{
+  font-size: 1rem;
+}
+
 .information-columns-textblock p {
+  font-size: 0.5rem;
 /*   width: 60%; */
 }
 
