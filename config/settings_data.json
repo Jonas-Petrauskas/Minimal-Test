@@ -324,6 +324,11 @@
         "settings": {
           "section-title": "What Defines"
         }
+      },
+      "16397552583d25fc28": {
+        "type": "instagram-grid-images",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -333,7 +338,8 @@
       "163966831968ff1265",
       "collection-list",
       "collection-list-1",
-      "newsletter"
+      "newsletter",
+      "16397552583d25fc28"
     ]
   },
   "presets": {
