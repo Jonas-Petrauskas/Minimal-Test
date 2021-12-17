@@ -40,16 +40,17 @@
 .information-columns-item {
   border: 2px solid green;
   padding: 0 10px 0 10px;
-/*   width: 100%; */
+  width: 100%;
 }
 
 .information-columns-img{
   border: 2px solid pink;
+  width: 100%;
 }
 
 .information-columns-textblock{
   border: 2px solid blue;
-/*   width: 10%; */
+  width: 100%;
 }
 
 .header-container {
