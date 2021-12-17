@@ -38,8 +38,9 @@
 }
 
 .information-columns-item {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+/*   display: flex; */
+/*   flex-direction: column; */
   border: 2px solid green;
   padding: 0 10px 0 10px;
 }
@@ -49,13 +50,13 @@
 }
 
 .information-columns-textblock{
-  display: flex;
-  flex-direction: column;
+/*   display: flex; */
+/*   flex-direction: column; */
   border: 2px solid blue;
 }
 
 .information-columns-textblock p {
-  width: 60%;
+/*   width: 60%; */
 }
 
 .header-container {
