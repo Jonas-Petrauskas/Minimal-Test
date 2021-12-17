@@ -6,8 +6,9 @@
 {% endif %}
 
 
-  <div class="information-columns-container">
+ 
     {% for block in section.blocks %}
+ <div class="information-columns-container">
       <div class="information-columns-item">
         <img class="information-columns-img" src="{{block.settings.image1| img_url:'master'}}"/> 
         <div class="information-columns-textblock">
@@ -15,8 +16,9 @@
           {{block.settings.rich-text1}}
         <div>  
       </div>
+            </div>
+
     {% endfor %}
-  </div>
 
 <!-- 
   <div class="information-columns-container">
