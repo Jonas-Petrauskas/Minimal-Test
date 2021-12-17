@@ -1,11 +1,58 @@
+
+<div class-"grid-container">
+  <div>
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/>
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/> 
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/> 
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/> 
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/> 
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/>     
+  </div>
+  <div>
+    <img class="" src="{{sections.settings.image1| img_url:'master'}}"/> 
+  </div>
+</div>
+
+
 {% schema %}
 {
-	"name": "Section name",
+	"name": "Instagram Grid Section",
 	"settings": [{
-		"type": "image_picker",
-		"id": "image1",
-		"label": "image 1"
-	}]
+			"type": "image_picker",
+			"id": "image1",
+			"label": "Grid image 1"
+		},
+		{
+			"type": "image_picker",
+			"id": "image2",
+			"label": "Grid image 2"
+		},
+		{
+			"type": "image_picker",
+			"id": "image3",
+			"label": "Grid image 3"
+		},
+		{
+			"type": "image_picker",
+			"id": "image4",
+			"label": "Grid image 4"
+		},
+		{
+			"type": "image_picker",
+			"id": "image5",
+			"label": "Grid image 5"
+		},
+		{
+			"type": "image_picker",
+			"id": "image6",
+			"label": "Grid image 6"
+		},
+		{
+			"type": "image_picker",
+			"id": "left-image",
+			"label": "Left image"
+		}
+	]
 }
 {% endschema %}
 
