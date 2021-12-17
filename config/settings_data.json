@@ -286,7 +286,8 @@
             "type": "text_block",
             "settings": {
               "section-title": "QUALITY PRODUCTS",
-              "rich-text1": "<p>Eve<\/p>"
+              "rich-text1": "<p>Eve<\/p>",
+              "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png"
             }
           },
           "a4424511-44ca-43fc-9475-654c8afcb5bb": {
