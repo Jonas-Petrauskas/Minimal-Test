@@ -39,7 +39,7 @@
 
 .information-columns-item {
   border: 2px solid green;
-  width: 100%;
+/*   width: 100%; */
 }
 
 .information-columns-img{
@@ -48,7 +48,7 @@
 
 .information-columns-textblock{
   border: 2px solid blue;
-  width: 10%;
+/*   width: 10%; */
 }
 
 .header-container {
