@@ -29,8 +29,6 @@
 .information-columns-container{
   display: flex;
   flex-direction: row;
-/*   display: grid; */
-/*    grid-template-columns: 1fr 1fr 1fr 1fr; */
   text-align: center;
   width: 90%;
   margin: auto;
