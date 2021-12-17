@@ -40,7 +40,8 @@
 }
 
 .information-columns-img{
-/*   border: 2px solid pink; */
+  max-width: 150px;
+  /*   border: 2px solid pink; */
 }
 
 .information-columns-textblock{
@@ -64,6 +65,4 @@
 .product-title,
 .product-meta {
   text-align: left;
-/*   position: relative; */
-/*   margin-bottom: 5px; */
 }
