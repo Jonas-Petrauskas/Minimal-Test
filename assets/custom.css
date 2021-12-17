@@ -70,7 +70,7 @@
 /* Instagram grid images */
 
 .grid-container {
-/*   display: grid;
-  grid-template-columns: repeat(5, 1fr) */
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr)
   border: 2px solid red;
 }
