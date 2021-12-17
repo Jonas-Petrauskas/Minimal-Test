@@ -70,6 +70,8 @@
 /* Instagram grid images */
 
 .grid-container {
+  width: 400px;
+heigth: 400px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -77,7 +79,7 @@
   border: 2px solid red;
 }
 
-.grid-left-img{
+.grid-left-img
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -86,14 +88,14 @@
 }
 
 .grid-left-upper{
-  display:flex;
-  flex-direction: row;
+/*   display:flex;
+  flex-direction: row; */
   border: 2px solid blue;
 }
 
 .grid-left-down{
-    display:flex;
-  flex-direction: row;
+/*     display:flex;
+  flex-direction: row; */
   border: 2px solid pink;
 
 }
