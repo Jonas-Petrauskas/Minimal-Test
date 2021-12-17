@@ -32,7 +32,7 @@
 /*   display: flex; */
 /*   flex-direction: row; */
   text-align: center;
-  border: 2px solid red;
+/*   border: 2px solid red; */
   width: 80%;
   margin: auto;
 }
@@ -41,19 +41,19 @@
   width: 100%;
 /*   display: flex; */
 /*   flex-direction: column; */
-  border: 2px solid green;
+/*   border: 2px solid green; */
   padding: 0 10px 0 10px;
 }
 
 .information-columns-img{
-  border: 2px solid pink;
+/*   border: 2px solid pink; */
 }
 
 .information-columns-textblock{
 /*   display: flex; */
 /*   flex-direction: column; */
   text-align: center;
-  border: 2px solid blue;
+/*   border: 2px solid blue; */
 }
 
 .information-columns-textblock p {
