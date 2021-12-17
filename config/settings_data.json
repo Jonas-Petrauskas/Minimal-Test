@@ -294,7 +294,8 @@
             "type": "text_block",
             "settings": {
               "title1": "WELL-PRICED",
-              "rich-text1": "<p>We are intentional about creating products that overdeliver and create a great value proposition for you.<\/p>"
+              "rich-text1": "<p>We are intentional about creating products that overdeliver and create a great value proposition for you.<\/p>",
+              "image1": "shopify:\/\/shop_images\/forgeicons-03_2x_0a88f546-967b-454f-a823-e4cd043d048b.png"
             }
           },
           "9f1cc29b-995a-4144-b233-0044b2300efd": {
