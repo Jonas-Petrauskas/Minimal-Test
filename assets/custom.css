@@ -39,6 +39,7 @@
 
 .information-columns-item {
   border: 2px solid green;
+  padding: 0 10px 0 10px;
 /*   width: 100%; */
 }
 
