@@ -57,6 +57,10 @@
   width: 100%;
 }
 
+.information-columns-textblock p {
+  width: 60%;
+}
+
 .header-container {
   text-align: center;
 }
