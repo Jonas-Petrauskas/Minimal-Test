@@ -61,17 +61,9 @@
 
 /* Product-grid-item */
 
-.product-link__title,
-.product-link__meta {
+.product-title,
+.product-meta {
   text-align: left;
-  position: relative;
-  margin-bottom: 5px;
-}
-
-.product-link__title {
-  color: $colorTextBody;
-  font-family: $headerFontStack;
-  font-size: .9em;
-  line-height: 1.4;
-  font-weight: $bodyFontWeightBold;
+/*   position: relative; */
+/*   margin-bottom: 5px; */
 }
