@@ -176,7 +176,7 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
-              "collection": "axle-ceiling-lamp"
+              "collection": "frontpage"
             }
           },
           "collection-list-1": {
@@ -188,13 +188,13 @@
           "collection-list-2": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           },
           "collection-list-3": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           }
         },
@@ -214,25 +214,25 @@
           "collection-list-1-0": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           },
           "collection-list-1-1": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           },
           "collection-list-1-2": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           },
           "collection-list-1-3": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "frontpage"
             }
           }
         },
