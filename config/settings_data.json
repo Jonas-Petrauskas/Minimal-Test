@@ -281,20 +281,44 @@
       },
       "163966831968ff1265": {
         "type": "company-information",
+        "blocks": {
+          "d6fef179-aac8-4fb1-aaa9-72c8ac571550": {
+            "type": "text_block",
+            "settings": {
+              "section-title": "",
+              "rich-text1": "<p>Type here<\/p>"
+            }
+          },
+          "a4424511-44ca-43fc-9475-654c8afcb5bb": {
+            "type": "text_block",
+            "settings": {
+              "section-title": "",
+              "rich-text1": "<p>Type here<\/p>"
+            }
+          },
+          "9f1cc29b-995a-4144-b233-0044b2300efd": {
+            "type": "text_block",
+            "settings": {
+              "section-title": "",
+              "rich-text1": "<p>Type here<\/p>"
+            }
+          },
+          "716c384a-da98-4993-ada8-51967012f315": {
+            "type": "text_block",
+            "settings": {
+              "section-title": "",
+              "rich-text1": "<p>Type here<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "d6fef179-aac8-4fb1-aaa9-72c8ac571550",
+          "a4424511-44ca-43fc-9475-654c8afcb5bb",
+          "9f1cc29b-995a-4144-b233-0044b2300efd",
+          "716c384a-da98-4993-ada8-51967012f315"
+        ],
         "settings": {
-          "section-title": "What Defines",
-          "title1": "QUALITY PRODUCTS",
-          "title2": "WELL-PRICED",
-          "title3": "BOLD DESIGN",
-          "title4": "2 YEAR WARRANTY",
-          "rich-text1": "<p>Everything is designed, prototyped & tested in-house before production. We do not drop ship or private label our products.<\/p>",
-          "rich-text2": "<p>We are international about creating products that overdeliver and create a great value proposition for you.<\/p>",
-          "rich-text3": "<p>All our products are designed to be bold statement pieces, that fit any occasion.<\/p>",
-          "rich-text4": "<p>We support your purchase the entire way, backed by our UK-based support team, to ensure you're taken care of.<\/p>",
-          "image1": "shopify:\/\/shop_images\/forgeicons-02_2x_b3f9aaa8-bc3e-46a1-b86d-6684376ff8ca.png",
-          "image2": "shopify:\/\/shop_images\/forgeicons-03_2x_0a88f546-967b-454f-a823-e4cd043d048b.png",
-          "image3": "shopify:\/\/shop_images\/forgeicons-04_2x_54b5c184-26de-4e39-b95b-828f114fc650.png",
-          "image4": "shopify:\/\/shop_images\/forgeicons-03_2x_d5fc8351-52e8-4857-9642-9e179a8bb204.png"
+          "section-title": "What Defines"
         }
       }
     },
