@@ -86,6 +86,7 @@
   grid-row-end: 3;
   border: 2px solid green;
 width: 100%;
+margin: auto;
 }
 
 .grid-left-upper{
@@ -102,6 +103,7 @@ width: 100%;
 }
 
 .grid-right-img {
+  margin: auto;
   width:100%
   grid-column-start: 4;
   grid-column-end: 6;
