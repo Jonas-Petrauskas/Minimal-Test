@@ -5,7 +5,12 @@
   </div>
 {% endif %}
 
-  <div class="information-columns-container">
+{% for block in section.blocks %}
+
+
+{% endfor %}
+
+<!--   <div class="information-columns-container">
     <div class="information-columns-item">
       <img class="information-columns-img" src="{{section.settings.image1| img_url:'master'}}"/> 
       <div class="information-columns-textblock">
@@ -34,7 +39,7 @@
         {{section.settings.rich-text4}}
       </div>
     </div>
-  </div>
+  </div> -->
 
 {% schema %}
   {
