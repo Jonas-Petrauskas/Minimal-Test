@@ -85,6 +85,7 @@
   grid-row-start: 1;
   grid-row-end: 3;
   border: 2px solid green;
+width: 100%;
 }
 
 .grid-left-upper{
@@ -101,6 +102,7 @@
 }
 
 .grid-right-img {
+  width:100%
   grid-column-start: 4;
   grid-column-end: 6;
   grid-row-start: 1;
