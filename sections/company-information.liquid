@@ -38,90 +38,40 @@
 
 {% schema %}
   {
-    "name": "Collumns with Image",
-    "settings": [
-      { 
-        "type": "text",
-        "id": "section-title" ,
-        "label": "Section Title"
-      },
-      { 
-        "type": "text",
-        "id": "title1" ,
-        "label": "Paragraph Title 1"
-      },
-      { 
-        "type": "text",
-        "id": "title2" ,
-        "label": "Paragraph Title 2"
-      },
-      { 
-        "type": "text",
-        "id": "title3" ,
-        "label": "Paragraph Title 3"
-      },
-      { 
-        "type": "text",
-        "id": "title4" ,
-        "label": "Paragraph Title 4"
-      },
-      {
+  	"name": "Collumns with Image",
+  	"settings": [{
+  		"type": "text",
+  		"id": "section-title",
+  		"label": "Section Title"
+  	}],
+  	"blocks": [{
+  		"name": "Text Block",
+  		"type": "text_block",
+  		"settings": [{
+  				"type": "text",
+  				"id": "section-title",
+  				"label": "Section Title"
+  			},
+  			{
 
-        "type": "richtext",
-        "id": "rich-text1",
-        "label": "Rich Text 1",
-        "default": "<p>Type here</p>"
+  				"type": "richtext",
+  				"id": "rich-text1",
+  				"label": "Rich Text 1",
+  				"default": "<p>Type here</p>"
 
-      },
-	  {
+  			},
+  			{
+  				"type": "image_picker",
+  				"id": "image1",
+  				"label": "image 1"
+  			}
+  		]
 
-        "type": "richtext",
-        "id": "rich-text2",
-        "label": "Rich Text 2",
-        "default": "<p>Type here</p>"
-
-      },
-      {
-
-        "type": "richtext",
-        "id": "rich-text3",
-        "label": "Rich Text 3",
-        "default": "<p>Type here</p>"
-
-      },
-      {
-
-        "type": "richtext",
-        "id": "rich-text4",
-        "label": "Rich Text 4",
-        "default": "<p>Type here</p>"
-
-      },
-      {
-        "type": "image_picker",
-        "id": "image1",
-        "label": "image 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "image2",
-        "label": "image 2"
-      },
-	  {
-        "type": "image_picker",
-        "id": "image3",
-        "label": "image 3"
-      },
-	  {
-        "type": "image_picker",
-        "id": "image4",
-        "label": "image 4"
-      }
-  ],
-    "presets": [{
-    "name": "Collumns with Image",
-    "category": "Advanced"
-}]
+  	}],
+  	"presets": [{
+  		"name": "Collumns with Image",
+  		"category": "Advanced"
+  	}]
   }
 {% endschema %}
 
