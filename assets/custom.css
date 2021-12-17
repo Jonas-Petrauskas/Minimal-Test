@@ -38,6 +38,8 @@
 }
 
 .information-columns-item {
+  display: flex;
+  flex-direction: column;
   border: 2px solid green;
   padding: 0 10px 0 10px;
   width: 100%;
@@ -49,6 +51,8 @@
 }
 
 .information-columns-textblock{
+  display: flex;
+  flex-direction: column;
   border: 2px solid blue;
   width: 100%;
 }
