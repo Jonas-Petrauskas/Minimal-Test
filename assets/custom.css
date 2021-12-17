@@ -63,6 +63,7 @@
 
 .product-link__title,
 .product-link__meta {
+  text-align: left;
   position: relative;
   margin-bottom: 5px;
 }
