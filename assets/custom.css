@@ -69,7 +69,7 @@
 
 /* Instagram grid images */
 
-.kazkas {
+.grid-container {
 /*   display: grid;
   grid-template-columns: repeat(5, 1fr) */
   border: 2px solid red;
