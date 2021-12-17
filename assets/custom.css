@@ -76,12 +76,14 @@
 }
 
 .grid-left-img{
-  display: flex;
-  flex-direction: row;
   border: 2px solid green;
 }
 
 .grid-left-rows{
   border: 2px solid blue;
+}
+
+.grid-right-img {
+  border: 2px solid orange;
 }
 
