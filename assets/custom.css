@@ -70,16 +70,14 @@
 /* Instagram grid images */
 
 .grid-container {
-    width:100%
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
+
   border: 2px solid red;
 }
 
 .grid-left-img{
-    width:100%
-
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -90,21 +88,16 @@
 .grid-left-upper{
   display:flex;
   flex-direction: row;
-  width:100%
   border: 2px solid blue;
 }
 
 .grid-left-down{
     display:flex;
   flex-direction: row;
-    width:100%
-
   border: 2px solid pink;
 }
 
 .grid-right-img {
-    width:100%
-
   grid-column-start: 4;
   grid-column-end: 6;
   grid-row-start: 1;
