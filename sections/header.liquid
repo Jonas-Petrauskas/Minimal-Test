@@ -152,6 +152,7 @@
               <span class="icon icon-hamburger" aria-hidden="true"></span>
               
           {% include 'icon-search' %}
+              
               {% comment %}
               {{ 'layout.navigation.menu' | t }}
               {% endcomment %}
@@ -202,13 +203,7 @@
         {% endif %}
       </div>
     
-<!--       <div class="heart-icon">
-        <a href="{{ routes.cart_url }}" class="cart-page-link">
-          {% include 'icon-heart' %}
-        </a>
-       </div> -->
-    
-      <div class="cart-icon">
+      <div class="icons-right-mobile">
          <a href="{{ routes.cart_url }}" class="cart-page-link">
           {% include 'icon-heart' %}
         </a>
