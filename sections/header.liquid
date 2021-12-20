@@ -199,18 +199,23 @@
         {% endif %}
       </div>
     
-                {% include 'icon-heart' %}
+      <div class="heart-icon">
+        <a href="{{ routes.cart_url }}" class="cart-page-link">
+          {% include 'icon-heart' %}
+        </a>
+       </div>
     
-                {% include 'icon-cart' %}
-
-
-    
-    
-
-<!--           <a href="{{ routes.cart_url }}" class="cart-page-link mobile-cart-page-link">
+      <div class="cart-icon">
+        <a href="{{ routes.cart_url }}" class="cart-page-link">
+          {% include 'icon-cart' %}
+        </a>
+      </div>
+    {% comment %}
+          <a href="{{ routes.cart_url }}" class="cart-page-link mobile-cart-page-link">
             <span class="icon icon-cart header-bar__cart-icon" aria-hidden="true"></span>
             {{ 'layout.cart.title' | t }} <span class="cart-count{% if cart.item_count == 0 %} hidden-count{% endif %}">{{ cart.item_count }}</span>
-          </a> -->
+          </a>
+    {% endcomment %}
         </div>
         {% include 'mobile-nav' with linklists[section.settings.nav_menu] %}
   <header class="site-header" role="banner">
