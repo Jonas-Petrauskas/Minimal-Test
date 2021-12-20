@@ -84,6 +84,7 @@
     'four five six seven seven'
     ;
   grid-gap: 1rem;
+  padding-bottom: 27px;
 }
 
 .grid-title-container {
