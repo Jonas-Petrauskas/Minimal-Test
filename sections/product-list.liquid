@@ -70,7 +70,7 @@
     {%- assign product_limit = section.settings.product_count -%}
     
     {% for featured in collection.products limit: product_limit %}
-      <div class="grid__item {{collection_item_width}} text-center">
+      <div class=" {{collection_item_width}} text-center">
                  {% include 'product-grid-item' with product_width: product_width %}
 
       </div>
@@ -79,7 +79,7 @@
     {% comment %}
     {% for block in section.blocks limit: section.blocks.size %}
       {% assign featured = block.settings.collection %}
-      <div class="grid__item {{collection_item_width}} text-center" {{ block.shopify_attributes }}>
+      <div class=" {{collection_item_width}} text-center" {{ block.shopify_attributes }}>
         {% include 'collection-grid-item' %}
       </div>
     {% endfor %}
