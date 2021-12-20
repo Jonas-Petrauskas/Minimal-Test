@@ -153,6 +153,7 @@
               {{ 'layout.navigation.menu' | t }}
             </button>
           {% endunless %}
+          {% include 'icon-search' %}
 <!--           <a href="{{ routes.cart_url }}" class="cart-page-link mobile-cart-page-link">
             <span class="icon icon-cart header-bar__cart-icon" aria-hidden="true"></span>
             {{ 'layout.cart.title' | t }} <span class="cart-count{% if cart.item_count == 0 %} hidden-count{% endif %}">{{ cart.item_count }}</span>
