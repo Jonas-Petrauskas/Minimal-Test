@@ -59,12 +59,14 @@
         "blocks": {
           "footer-0": {
             "type": "blog",
+            "disabled": true,
             "settings": {
               "blog": "news"
             }
           },
           "footer-1": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu_title": "Links",
               "menu": "footer"
@@ -72,11 +74,13 @@
           },
           "footer-2": {
             "type": "social",
+            "disabled": true,
             "settings": {
             }
           },
           "footer-3": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "subtext": "<p>Sign up for the latest news, offers and styles<\/p>"
             }
