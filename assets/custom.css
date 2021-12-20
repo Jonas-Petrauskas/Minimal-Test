@@ -64,6 +64,7 @@
 @media (max-width: 768px) {
   .information-columns-img {
   	max-width: 100px !important;
+    margin:auto:
   }
 }
 
@@ -75,6 +76,10 @@
   .information-columns-container{
      display: none !important;
  
+  }
+  
+  .information-columns-img{
+    margin: auto;
   }
 }
 
