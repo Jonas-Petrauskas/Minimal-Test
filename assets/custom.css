@@ -64,20 +64,17 @@
 @media (max-width: 768px) {
   .information-columns-img {
   	max-width: 100px !important;
-    margin:auto:
+    margin: auto:
   }
 }
 
 @media (max-width: 480px) {
   .slick-carousel {
-  display: block !important;
-}
-  
-  .information-columns-container{
-     display: none !important;
- 
+    display: block !important;
   }
-  
+  .information-columns-container{
+    display: none !important;
+  }
   .information-columns-img{
     margin: auto;
   }
@@ -85,8 +82,8 @@
 
 @media (min-width: 480px) {
   .slick-carousel {
-  display: none !important;
-}
+    display: none !important;
+  }
 }
 
 /* Product-grid-item */
