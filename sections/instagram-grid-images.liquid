@@ -1,4 +1,6 @@
-
+<div class="grid-title-container">
+  <h1>{{section.settings.section-title | escape}}</h1>
+</div>
 
 <div class="grid-container">
   <img class="img-1" src="{{section.settings.image1| img_url:'master'}}"/>
@@ -16,6 +18,11 @@
 {
 	"name": "Instagram Grid Section",
 	"settings": [{
+            "type": "text",
+  		    "id": "section-title",
+  		    "label": "Section Title"
+        },
+        {
 			"type": "image_picker",
 			"id": "image1",
 			"label": "Grid image 1"
