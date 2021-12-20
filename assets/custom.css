@@ -161,10 +161,10 @@
     width: 100%;
   }
   
-  .cart-icon > a {
+/*   .cart-icon > a {
     display: flex;
     justify-content: flex-end;
-  }
+  } */
   
   .wrapper {
     padding: 0;
