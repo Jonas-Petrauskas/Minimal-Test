@@ -65,15 +65,12 @@
   .information-columns-container{
   display: flex;
   flex-direction: row;
-    flex-flow: wrap;
+  flex-flow: wrap;
   text-align: center;
   width: 90%;
   margin: auto;
-}
-  .information-columns-img {
-/*   	max-width: 100px !important; */
-    margin: auto:
   }
+
 }
 
 @media (max-width: 480px) {
