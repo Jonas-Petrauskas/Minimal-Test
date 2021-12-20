@@ -73,6 +73,9 @@
   }
   
   .information-columns-textblock {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
     width: 50%;
   }
 }
