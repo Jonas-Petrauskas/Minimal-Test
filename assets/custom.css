@@ -74,7 +74,7 @@
   
   .information-columns-textblock {
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     align-items: center;
     width: 50%;
   }
