@@ -152,13 +152,10 @@
     width: 100%;
   }
   
-/*   .heart-icon {
-    width: 100%;
-  } */
-  
   .cart-icon {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     text-align: right;   
     padding-right: 0.5rem;
     width: 100%;
