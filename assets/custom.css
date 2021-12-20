@@ -31,7 +31,6 @@
 .information-columns-container{
   display: flex;
   flex-direction: row;
-/*   flex-flow: wrap; */
   text-align: center;
   width: 90%;
   margin: auto;
