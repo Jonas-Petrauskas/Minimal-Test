@@ -131,6 +131,11 @@
 
 /* Header */
 
+@media (max-width: 480px) {
+  .logo__image-wrapper {
+    font-size: 1rem;
+  }
+}
 
 @media (max-width: 768px) {
  .site-header {
