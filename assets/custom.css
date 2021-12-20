@@ -26,6 +26,8 @@
   text-align: center;
 }
 
+/* Company information component */
+
 .information-columns-container{
   display: flex;
   flex-direction: row;
@@ -58,6 +60,12 @@
 
 .header-container {
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .information-columns-img{
+  max-width: 100px !important;
+}
 }
 
 /* Product-grid-item */
