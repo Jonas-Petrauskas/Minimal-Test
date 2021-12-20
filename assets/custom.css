@@ -132,7 +132,7 @@
 /* Header */
 
 @media (max-width: 480px) {
-  .logo__image-wrapper {
+  .site-header__logo {
     font-size: 1rem;
   }
 }
