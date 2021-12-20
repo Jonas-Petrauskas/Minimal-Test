@@ -71,6 +71,10 @@
     width: 80%;
     margin: auto;
   }
+  
+  .information-columns-textblock {
+    width: 50%;
+  }
 }
 
 @media (max-width: 480px) {
