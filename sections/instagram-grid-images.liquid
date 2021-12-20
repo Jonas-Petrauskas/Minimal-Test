@@ -1,6 +1,9 @@
-<div class="grid-title-container">
-  <h1>{{section.settings.section-title | escape}}</h1>
-</div>
+{% if section.settings.section-title != black %}
+  <div class="header-container">
+    <h1>{{section.settings.section-title | escape}}</h1>
+  </div>
+{% endif %}
+
 
 <div class="grid-container">
   <img class="img-1" src="{{section.settings.image1| img_url:'master'}}"/>
