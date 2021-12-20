@@ -65,11 +65,11 @@
   .information-columns-container{
     display: flex;
     flex-direction: row;
+    flex-flox: wrap;
     text-align: center;
     width: 90%;
     margin: auto;
   }
-
 }
 
 @media (max-width: 480px) {
