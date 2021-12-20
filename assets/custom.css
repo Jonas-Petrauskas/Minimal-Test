@@ -131,7 +131,7 @@
 
 /* Header */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .site-header__logo {
     font-size: 1rem;
   }
