@@ -281,6 +281,7 @@
       },
       "163966831968ff1265": {
         "type": "company-information",
+        "disabled": true,
         "blocks": {
           "d6fef179-aac8-4fb1-aaa9-72c8ac571550": {
             "type": "text_block",
