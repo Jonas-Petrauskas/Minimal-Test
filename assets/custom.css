@@ -136,6 +136,8 @@
     font-size: 1rem;
   }
   .mobile-nav-trigger {
+    display: flex;
+    flex-direction: row;
     text-align: left;
     padding-left: 0.5rem;
 /*     display: block; */
@@ -165,9 +167,9 @@
     width: 100%;
   }
   
-  .heart-icon {
+/*   .heart-icon {
     width: 100%;
-  }
+  } */
   
   .cart-icon {
     display: flex;
