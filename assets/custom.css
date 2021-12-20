@@ -70,6 +70,7 @@
 @media (max-width: 480px) {
   .slick-carousel {
   display: block !important;
+    text-align: center ! important;
 }
   
   .information-columns-container{
