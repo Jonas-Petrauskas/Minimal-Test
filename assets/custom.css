@@ -132,7 +132,7 @@
 /* Header */
 
 @media (max-width: 480px) {
-  .header-wrapper-mobile {
+  .header-wrapper-desktop {
     display: none !important;
   }
 }
