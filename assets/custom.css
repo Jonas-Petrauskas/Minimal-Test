@@ -37,20 +37,19 @@
 }
 
 .information-columns-item {
-  
   width: 100%;
   padding: 0 10px 0 10px;
 }
 
-.information-columns-img{
+.information-columns-img {
   max-width: 125px !important;
 }
 
-.information-columns-textblock{
+.information-columns-textblock {
   text-align: center;
 }
 
-.information-columns-textblock h3{
+.information-columns-textblock h3 {
   font-size: 1rem;
 }
 
@@ -62,8 +61,10 @@
   text-align: center;
 }
 
-@media (max-width: 480px) {
-  
+@media (max-width: 768px) {
+  .information-columns-img {
+  	max-width: 100px !important;
+  }
 }
 
 /* Product-grid-item */
