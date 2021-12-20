@@ -171,6 +171,26 @@
   }
 }
 
+/* Best Sellers Mobile */
+
+@media (max-width: 480px) {
+/*   .slick-carousel-mobile {
+    display: block !important;
+  }
+  .information-columns-container{
+    display: none !important;
+  }
+  .information-columns-img{
+    margin: auto;
+  }
+} */
+
+@media (min-width: 480px) {
+  .best-sellers-carousel {
+    display: none !important;
+  }
+}
+
 
 
 
