@@ -140,21 +140,14 @@
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
  .site-header {
     display: none !important;
   }
-} */
-
-
-.site-header {
-    display: none !important;
 }
 
-.warapper-mobile {
-      display: none !important;
 
-}
+
 
 
 
