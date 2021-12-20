@@ -63,7 +63,7 @@
 
 @media (max-width: 768px) {
   .information-columns-img {
-  	max-width: 100px !important;
+/*   	max-width: 100px !important; */
     margin: auto:
   }
 }
