@@ -151,7 +151,7 @@
     top: 0px;
   }
   
-  .search-icon {
+/*   .search-icon {
     display: flex;
     justify-content: flex-start;
     padding: 0;
@@ -161,7 +161,7 @@
   .search-icon .icon {
     width: 20px;
     height: 20px;
-  }
+  } */
   
   .grid--full {
     width: 100%;
