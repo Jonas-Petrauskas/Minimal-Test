@@ -19,18 +19,21 @@
   </div>
 
 
-<!-- Mobile -->
-  <div class="slick-carousel">
+
+  <div class="feature-columns-carousel mobile-only">
     {% for block in section.blocks %}
-      <div class="information-columns-item">
-        <img class="information-columns-img" src="{{block.settings.image1| img_url:'master'}}"/> 
-        <div class="information-columns-textblock">
+      <div class="feature-columns-carousel__item">
+        <img class="feature-columns-carousel-img" src="{{block.settings.image1| img_url:'master'}}"/> 
+        <div class="feature-columns-cell_textblock">
           <h3>{{block.settings.title1}}</h3>
           {{block.settings.rich-text1}}
         </div>  
       </div>
     {% endfor %}
   </div>
+
+
+
 
 <!-- 
   <div class="information-columns-container">
