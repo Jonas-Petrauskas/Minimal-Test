@@ -152,7 +152,7 @@
     width: 100%;
   }
   
-  .icons-right-mobile {
+  .cart-icon {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
