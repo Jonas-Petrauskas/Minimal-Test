@@ -132,15 +132,13 @@
 /* Header */
 
 @media (max-width: 480px) {
-  .header-wrapper-desktop {
+  .site-header {
     display: none !important;
   }
 }
 
 @media (min-width: 480px) {
-  .header-wrapper-mobile {
-    display: none !important;
-  }
+
 }
 
 
