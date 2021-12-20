@@ -75,13 +75,13 @@
 .img-4 { grid-area: four; }
 .img-5 { grid-area: five; }
 .img-6 { grid-area: six; }
-.img-7 { grid-area: right; }
+.img-7 { grid-area: seven; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'one two three right'
-    'four five six right';
+    'one two three seven'
+    'four five six seven';
   grid-gap: 1rem;
 }
 
