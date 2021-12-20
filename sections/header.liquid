@@ -203,13 +203,16 @@
         {% endif %}
       </div>
     
-      <div class="heart-icon">
+<!--       <div class="heart-icon">
         <a href="{{ routes.cart_url }}" class="cart-page-link">
           {% include 'icon-heart' %}
         </a>
-       </div>
+       </div> -->
     
       <div class="cart-icon">
+         <a href="{{ routes.cart_url }}" class="cart-page-link">
+          {% include 'icon-heart' %}
+        </a>
         <a href="{{ routes.cart_url }}" class="cart-page-link">
           {% include 'icon-cart' %}
         </a>
