@@ -131,11 +131,6 @@
 
 /* Header */
 
-/* @media (max-width: 480px) {
-  .site-header {
-    display: none !important;
-  }
-} */
 
 @media (max-width: 768px) {
  .site-header {
