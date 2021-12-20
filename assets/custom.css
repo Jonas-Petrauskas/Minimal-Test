@@ -131,8 +131,8 @@
 
 /* Header */
 
-@media (min-width: 480px) {
-  .header-bar {
+@media (max-width: 480px) {
+  .header-wrapper-mobile {
     display: none !important;
   }
 }
