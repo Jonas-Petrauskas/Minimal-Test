@@ -86,7 +86,7 @@
   
 }
 
-.grid-container:hover img {
+.img-container:hover img {
   transform: scale(1.5);
 }
 
