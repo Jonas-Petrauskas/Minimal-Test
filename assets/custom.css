@@ -175,7 +175,7 @@
 
 @media (max-width: 480px) {
   .grid-uniform {
-    display: none ! imortant;
+    display: none !important;
   }
 }
 /*   .slick-carousel-mobile {
