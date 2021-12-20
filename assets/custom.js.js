@@ -1,1 +1,1 @@
-$('.information-columns-container').slick();
+$('.slick-carousel').slick();
