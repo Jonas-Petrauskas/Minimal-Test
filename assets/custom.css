@@ -162,6 +162,10 @@
   .cart-icon {
     width: 100%;
   }
+  
+  .wrapper {
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
