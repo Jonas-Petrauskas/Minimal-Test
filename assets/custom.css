@@ -69,12 +69,12 @@
 
 /* Instagram grid images */
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
   border: 2px solid red;
-}
+} */
 
 .grid-left-img{
   display:flex;
