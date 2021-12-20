@@ -80,8 +80,9 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'one two three seven seven'
-    'four five six seven seven';
+    'one one one'
+    'one one one'
+    ;
   grid-gap: 1rem;
 }
 
