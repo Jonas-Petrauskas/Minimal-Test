@@ -182,11 +182,17 @@
 /* Collecion-list-mobile */
 
 
+@media (max-width: 480px) {
+  .collection-list-mobile {
+    
+  }
 
-.collection-list-mobile {
+  .collection-list-uniform {
+  }
+  
 }
 
-.collection-list-uniform {
-}
+
+
 
 
