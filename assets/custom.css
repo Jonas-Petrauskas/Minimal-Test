@@ -138,6 +138,14 @@
   .grid__item {
     width: 100%;
   }
+  
+  .warapper-mobile {
+    width: 100%;
+  }
+  
+  .grid--full {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
