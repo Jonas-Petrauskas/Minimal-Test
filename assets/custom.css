@@ -170,6 +170,8 @@
   }
   
   .cart-icon {
+    display: flex;
+    flex-direction: row;
     text-align: right;   
     padding-right: 0.5rem;
     width: 100%;
