@@ -138,12 +138,13 @@
   .mobile-nav-trigger {
     display: flex;
     flex-direction: row;
+    
     text-align: left;
-    padding-left: 0.5rem;
+/*     padding-left: 0.5rem; */
 /*     display: block; */
 /*     float: left; */
-    border: 0 none;
-    margin: 0;
+/*     border: 0 none; */
+/*     margin: 0; */
     width: 100%;
   }
   
