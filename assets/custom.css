@@ -84,6 +84,13 @@
   
 }
 
+.img-grid-col2 {
+  grid-column: span 2;
+}
+
+.img-grid-row2 {
+  grid-row: span 2;
+}
 /* .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
