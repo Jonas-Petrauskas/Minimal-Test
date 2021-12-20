@@ -138,13 +138,12 @@
   .mobile-nav-trigger {
     display: flex;
     flex-direction: row;
-    
     text-align: left;
-/*     padding-left: 0.5rem; */
+    padding-left: 0.5rem;
 /*     display: block; */
 /*     float: left; */
-/*     border: 0 none; */
-/*     margin: 0; */
+    border: 0 none;
+    margin: 0;
     width: 100%;
   }
   
@@ -152,7 +151,7 @@
     top: 0px;
   }
   
-/*   .search-icon {
+  .search-icon {
     display: flex;
     justify-content: flex-start;
     padding: 0;
@@ -162,7 +161,7 @@
   .search-icon .icon {
     width: 20px;
     height: 20px;
-  } */
+  }
   
   .grid--full {
     width: 100%;
