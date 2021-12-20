@@ -150,6 +150,9 @@
   }
   
   .search-icon {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
     width: 100%;
   }
   
