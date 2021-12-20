@@ -1,1 +1,1 @@
-$('.slick-carousel').slick();
+$('.slick-carousel-mobile').slick();
