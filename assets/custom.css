@@ -72,8 +72,9 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1rem;
-
+/*   grid-gap: 10px; */
+  grid-auto-rows:  300px;
+  
 }
 
 /* .grid-container {
