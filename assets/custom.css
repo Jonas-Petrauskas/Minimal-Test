@@ -75,7 +75,7 @@
 .img-4 { grid-area: four; }
 .img-5 { grid-area: five; }
 .img-6 { grid-area: six; }
-.img-7 { grid-area: seven; }
+.img-7 { grid-area: last; }
 
 .grid-container {
   display: grid;
