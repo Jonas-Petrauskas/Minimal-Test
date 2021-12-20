@@ -77,6 +77,14 @@
 .img-6 { grid-area: six; }
 .img-7 { grid-area: right; }
 
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'one two three right'
+    'four five six right';
+  grid-gap: 1rem;
+}
+
 /* .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
