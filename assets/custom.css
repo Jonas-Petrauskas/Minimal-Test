@@ -146,7 +146,6 @@
   .mobile-nav-trigger .icon {
     top: 0px;
   }
- 
   
   .grid--full {
     width: 100%;
@@ -162,7 +161,7 @@
   }
   
   .wrapper {
-    padding: 0;
+    padding: 10px 0 10px 0;
   }
 }
 
