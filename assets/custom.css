@@ -184,10 +184,12 @@
 
 @media (max-width: 480px) {
   .collection-list-mobile {
+    border: 2px solid red;
     
   }
 
   .collection-list-uniform {
+    border: 2px solid green;
   }
   
 }
