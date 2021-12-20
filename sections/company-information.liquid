@@ -6,7 +6,21 @@
 {% endif %}
 
 
-  <div class="information-columns-container slick-carousel">
+  <div class="information-columns-container">
+    {% for block in section.blocks %}
+      <div class="information-columns-item">
+        <img class="information-columns-img" src="{{block.settings.image1| img_url:'master'}}"/> 
+        <div class="information-columns-textblock">
+          <h3>{{block.settings.title1}}</h3>
+          {{block.settings.rich-text1}}
+        </div>  
+      </div>
+    {% endfor %}
+  </div>
+
+
+<!-- Mobile -->
+  <div class="slick-carousel">
     {% for block in section.blocks %}
       <div class="information-columns-item">
         <img class="information-columns-img" src="{{block.settings.image1| img_url:'master'}}"/> 
