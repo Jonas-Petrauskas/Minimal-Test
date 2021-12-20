@@ -137,8 +137,10 @@
   }
 }
 
-@media (min-width: 480px) {
-
+@media (max-width: 768px) {
+ .site-header {
+    display: none !important;
+  }
 }
 
 
