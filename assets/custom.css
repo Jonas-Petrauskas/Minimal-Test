@@ -135,7 +135,11 @@
   .site-header__logo {
     font-size: 1rem;
   }
-/*   .grid__item {
+  .mobile-nav-tri {
+    display: block;
+    float: left;
+    border: 0 none;
+    margin: 0;
     width: 100%;
   }
   
@@ -153,7 +157,7 @@
   
   .cart-icon {
     width: 100%;
-  } */
+  }
 }
 
 @media (max-width: 768px) {
