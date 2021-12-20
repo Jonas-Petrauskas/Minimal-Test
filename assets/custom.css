@@ -143,6 +143,10 @@
     width: 100%;
   }
   
+  .mobile-nav-trigger .icon {
+    top: 0px;
+  }
+  
   .search-icon {
     width: 100%;
   }
