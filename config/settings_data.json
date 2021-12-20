@@ -273,6 +273,7 @@
       },
       "1639641019193457b0": {
         "type": "product-list",
+        "disabled": true,
         "settings": {
           "title": "Best Sellers",
           "collection": "frontpage",
