@@ -131,5 +131,12 @@
 
 /* Header */
 
+@media (min-width: 480px) {
+  .header-bar {
+    display: none !important;
+  }
+}
+
+
 
 
