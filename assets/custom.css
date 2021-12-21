@@ -205,6 +205,10 @@
     border: 2px solid green;
     
   }
+  
+  .medium-down--one-half {
+    width: 100%;
+  }
 
   
 }
