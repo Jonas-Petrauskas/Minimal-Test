@@ -1,6 +1,6 @@
 $('.slick-carousel-mobile').slick();
 
-$('.best-sellers-carousel').slick({
+$('.collection-list-uniform').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 1,
