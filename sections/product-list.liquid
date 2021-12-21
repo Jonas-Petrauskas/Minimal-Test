@@ -70,10 +70,10 @@
     {%- assign product_limit = section.settings.product_count -%}
     
     {% for featured in collection.products limit: product_limit %}
-      <div class="section-block-mobile {{collection_item_width}} text-center">
+<!--       <div class="section-block-mobile {{collection_item_width}} text-center">
                  {% include 'product-grid-item' with product_width: product_width %}
 
-      </div>
+      </div> -->
    
     {% endfor %}
    
