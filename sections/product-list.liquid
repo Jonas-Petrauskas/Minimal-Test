@@ -79,7 +79,7 @@
     {% comment %}
     {% for block in section.blocks limit: section.blocks.size %}
       {% assign featured = block.settings.collection %}
-      <div class=" {{collection_item_width}} text-center" {{ block.shopify_attributes }}>
+      <div class="testas-1 {{collection_item_width}} text-center" {{ block.shopify_attributes }}>
         {% include 'collection-grid-item' %}
       </div>
     {% endfor %}
