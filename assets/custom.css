@@ -78,10 +78,7 @@
   }
 }
 
-@media (max-width: 480px) {
-  .slick-carousel-mobile .best-seller-carousel-mobile {
-/*     display: block !important; */
-  }
+
   .information-columns-container{
     display: none !important;
   }
