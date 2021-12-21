@@ -1,6 +1,6 @@
 $('.slick-carousel-mobile').slick();
 
-$('.best-seller-carousel-mobile').slick({
+$('.section-block-mobile').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 1,
