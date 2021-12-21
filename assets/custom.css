@@ -177,6 +177,13 @@
   .grid-uniform {
     display: none !important;
   }
+  
+  .best-seller-carousel-mobile{ 
+    margin: 0 -10px; 
+  } 
+  .section-block-mobile{ 
+    margin: 0 10px 
+  }
 }
 
 /* Collecion-list-mobile */
