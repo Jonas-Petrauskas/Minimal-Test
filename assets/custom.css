@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 480px) {
-  .slick-carousel-mobile {
+  .slick-carousel-mobile .best-seller-carousel-mobile {
     display: block !important;
   }
   .information-columns-container{
@@ -91,7 +91,7 @@
 }
 
 @media (min-width: 480px) {
-  .slick-carousel-mobile {
+  .slick-carousel-mobile .best-seller-carousel-mobile {
     display: none !important;
   }
 }
