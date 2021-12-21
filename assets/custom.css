@@ -86,7 +86,7 @@
     display: none !important;
   }
   .best-seller-carousel-mobile{
-        display: none !important;
+        margin: 0 -10px;
 
   }
   .information-columns-img{
