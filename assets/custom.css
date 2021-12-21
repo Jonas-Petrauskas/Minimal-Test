@@ -208,6 +208,10 @@
   .medium-down--one-half {
     width: 100%;
   }
+  
+  .index-section {
+    padding-top: 0;
+  }
 
   
 }
