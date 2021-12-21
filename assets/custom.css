@@ -85,10 +85,6 @@
   .information-columns-container{
     display: none !important;
   }
-  .best-seller-carousel-mobile{
-        margin: 0 -10px;
-
-  }
   .information-columns-img{
     margin: auto;
   }
@@ -181,6 +177,18 @@
   .grid-uniform {
     display: none !important;
   }
+  
+  
+    .best-seller-carousel-mobile{
+        margin: 0 -10px;
+
+  }
+  
+  
+  
+  
+  
+  
 }
 
 /* Collecion-list-mobile */
