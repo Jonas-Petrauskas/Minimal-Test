@@ -85,6 +85,10 @@
   .information-columns-container{
     display: none !important;
   }
+  .best-seller-carousel-mobile{
+        display: none !important;
+
+  }
   .information-columns-img{
     margin: auto;
   }
