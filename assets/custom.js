@@ -2,5 +2,7 @@ $('.slick-carousel-mobile').slick();
 
 $('.best-sellers-carousel').slick({
   centerMode: true,
-  centerPadding: '60px'
+  centerPadding: '60px',
+  slidesToShow: 1,
+  infinite: true
 });
