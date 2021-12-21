@@ -57,7 +57,7 @@
     {% for block in section.blocks limit: section.blocks.size %}
       {% assign featured = block.settings.collection %}
       <div class="collection-list-uniform {{collection_item_width}} text-center" {{ block.shopify_attributes }}>
-        asdasd
+        {% include 'collection-grid-item' with collection_width: collection_width %}
       </div>
     {% endfor %}
   </div>
