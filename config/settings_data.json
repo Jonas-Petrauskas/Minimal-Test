@@ -172,7 +172,6 @@
       },
       "collection-list": {
         "type": "collection-list",
-        "disabled": true,
         "blocks": {
           "collection-list-0": {
             "type": "collection",
@@ -211,7 +210,6 @@
       },
       "collection-list-1": {
         "type": "collection-list",
-        "disabled": true,
         "blocks": {
           "collection-list-1-0": {
             "type": "collection",
@@ -332,7 +330,6 @@
       },
       "16397552583d25fc28": {
         "type": "instagram-grid-images",
-        "disabled": true,
         "settings": {
           "section-title": "TAG US AND GET FEATURED",
           "text": "<p>Over 20k+ members of @nameinst on Instagram<\/p>",
