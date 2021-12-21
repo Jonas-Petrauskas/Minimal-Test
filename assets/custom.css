@@ -210,7 +210,7 @@
   .grid-link, .grid-link--focus {
     padding-bottom: 0;
   }
-  
+
 }
 
 @media (min-width: 480px) {
@@ -219,4 +219,35 @@
     display: none !important;
   }
 }
+
+/* Newsletter */
+
+@media (max-width: 480px) {
+
+  .mobile-newsletter {
+    /* background-color: gray; */
+    /* border: 2px solid orange; */
+    margin: 0 20px;
+  }
+  .section-header {
+    border: 2px solid blue;
+  }
+  
+  .btn {
+    width: 100% !important;
+  }
+  
+  .mobile-newsletter-text, .mobile-newsletter-input {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 480px) {
+  
+  .mobile-newsletter {
+    display: none !important;
+  }
+}
+
+
 

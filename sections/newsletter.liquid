@@ -50,6 +50,47 @@
 </div>
 
 
+<!-- Mobile part  -->
+
+
+<div class="mobile-newsletter">
+  <div class="mobile-newsletter-text">
+    {% unless section.settings.heading == blank %}
+    <div class="">
+      <h2 class="{% unless section.settings.subtext == blank %}{% endunless %}">
+        {{ section.settings.heading | escape }}
+      </h2>
+      {% endunless %}
+      {% unless section.settings.subtext == blank %}
+        {{ section.settings.subtext }}
+      {% endunless %}
+    </div>
+  </div>
+
+  <div class="mobile-newsletter-input">
+    {% form 'customer' %}
+      {{ form.errors | default_errors }}
+      {% if form.posted_successfully? %}
+        <p class="">{{ 'general.newsletter_form.confirmation' | t }}</p>
+      {% else %}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <div class="">
+          <label for="Email" class="">{{ 'contact.form.email' | t }}</label>
+          <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="Email" class="input-group-field" aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}" autocorrect="off" autocapitalize="off">
+          <span class="input-group-btn">
+            <button type="submit" class="btn" name="commit" id="subscribe">{{ 'general.newsletter_form.submit' | t }}</button>
+          </span>
+        </div>
+      {% endif %}
+    {% endform %}
+  </div>
+
+
+</div>
+
+
+
+
 
 {% schema %}
 {
