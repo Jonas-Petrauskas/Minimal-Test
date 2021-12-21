@@ -200,6 +200,10 @@
     grid-template-columns: 1fr 1fr;
     grid-row: auto auto;
   }
+  
+  .collection-list-uniform {
+    border: 2px solid green;
+  }
 
   
 }
