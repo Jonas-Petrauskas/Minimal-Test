@@ -81,6 +81,7 @@
 @media (max-width: 480px) {
   .slick-carousel-mobile .best-seller-carousel-mobile {
     display: block !important;
+    margin: 0 -10px;
   }
   .information-columns-container{
     display: none !important;
