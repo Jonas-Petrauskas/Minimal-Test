@@ -184,7 +184,12 @@
   .section-block-mobile{ 
     margin: 0 10px 
   }
+  
+  .slick-prev {
+    position: relative !important;
+  }
 }
+
 
 /* Collecion-list-mobile */
 
