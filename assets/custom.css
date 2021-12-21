@@ -197,16 +197,8 @@
   .collection-list-mobile {
     border: 2px solid red;
     display: grid;
-  grid-template-columns: repeat(2, 1fr);
-/*   grid-template-rows: repeat(2); */
-  grid-gap: 10px;
-    
-  }
-
-  .collection-list-uniform:first-child {
-    border: 2px solid green;
-    grid-column: 1 / 2; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
-  grid-row: 1 / 2;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
   }
 
   
