@@ -186,7 +186,7 @@
   }
   
     .slick-next, .slick-prev {
-    position: relative !important;
+/*     position: relative !important; */
   }
 }
 
