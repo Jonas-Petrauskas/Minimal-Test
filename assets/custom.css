@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 480px) {
-  .slick-carousel-mobile .best-seller-carousel-mobile {
+  .slick-carousel-mobile, .best-seller-carousel-mobile, .section-block-mobile  {
     display: block !important;
     margin: 0 -10px;
   }
