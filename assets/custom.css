@@ -212,6 +212,10 @@
   .index-section {
     padding-top: 0;
   }
+  
+  .grid-link, .grid-link--focus {
+    padding-bottom: 0;
+  }
 
   
 }
