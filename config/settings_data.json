@@ -172,6 +172,7 @@
       },
       "collection-list": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "collection-list-0": {
             "type": "collection",
@@ -210,6 +211,7 @@
       },
       "collection-list-1": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "collection-list-1-0": {
             "type": "collection",
@@ -256,6 +258,7 @@
       },
       "1639581279f335d781": {
         "type": "our-mission-text",
+        "disabled": true,
         "settings": {
           "headline": "Our Mission",
           "mission-text": "<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt un labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
@@ -273,6 +276,7 @@
       },
       "1639641019193457b0": {
         "type": "product-list",
+        "disabled": true,
         "settings": {
           "title": "Best Sellers",
           "collection": "frontpage",
@@ -281,6 +285,7 @@
       },
       "163966831968ff1265": {
         "type": "company-information",
+        "disabled": true,
         "blocks": {
           "d6fef179-aac8-4fb1-aaa9-72c8ac571550": {
             "type": "text_block",
@@ -327,6 +332,7 @@
       },
       "16397552583d25fc28": {
         "type": "instagram-grid-images",
+        "disabled": true,
         "settings": {
           "section-title": "TAG US AND GET FEATURED",
           "text": "<p>Over 20k+ members of @nameinst on Instagram<\/p>",
