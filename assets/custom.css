@@ -198,7 +198,7 @@
     border: 2px solid red;
     display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2);
+/*   grid-template-rows: repeat(2); */
   grid-gap: 10px;
     
   }
@@ -207,6 +207,12 @@
     border: 2px solid green;
     grid-column: 1 / 2; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
   grid-row: 1 / 2;
+  }
+  
+  .collection-list-uniform {
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
   
 }
