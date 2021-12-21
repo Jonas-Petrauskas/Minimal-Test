@@ -185,7 +185,7 @@
     margin: 0 10px 
   }
   
-    .slick-next, .slick-prev {
+  .slick-next, .slick-prev {
     position: relative !important;
   }
 }
@@ -203,6 +203,7 @@
   
   .collection-list-uniform {
     border: 2px solid green;
+    
   }
 
   
