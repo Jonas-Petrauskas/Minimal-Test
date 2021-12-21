@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 480px) {
-  .slick-carousel-mobile, .best-seller-carousel-mobile, .section-block-mobile  {
+  .slick-carousel-mobile, .best-seller-carousel-mobile, {
     display: block !important;
     margin: 0 -10px;
   }
@@ -88,6 +88,9 @@
   }
   .information-columns-img{
     margin: auto;
+  }
+  .section-block-mobile {
+    margin: 0 10px;
   }
 }
 
