@@ -82,6 +82,9 @@
   .slick-carousel-mobile .best-seller-carousel-mobile {
     display: block !important;
   }
+  .testas-1 {
+  margin: 0 -10px;
+}
   .information-columns-container{
     display: none !important;
   }
@@ -192,15 +195,6 @@
     border: 2px solid green;
   }
   
-}
-
-
-/* .best-seller-carousel-mobile {
-  margin: 0 -10px;
-} */
-
-.testas-1 {
-  margin: 0 10px;
 }
 
 
