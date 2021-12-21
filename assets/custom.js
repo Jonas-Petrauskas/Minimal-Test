@@ -1,6 +1,6 @@
-// $('.slick-carousel-mobile').slick();
+$('.slick-carousel-mobile').slick();
 
-$('.slick-carousel-mobile').slick({
+$('.test').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 1,
