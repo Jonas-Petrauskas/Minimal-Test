@@ -177,10 +177,7 @@
   .grid-uniform {
     display: none !important;
   }
-  
-  .best-seller-carousel-mobile{ 
-/*     margin: 0 -10px;  */
-  } 
+
   .section-block-mobile{ 
     margin: 0 10px 
   }
@@ -194,6 +191,7 @@
 
 
 @media (max-width: 480px) {
+  
   .collection-list-mobile {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,7 +199,6 @@
     padding: 0 20px;
   }
 
-  
   .medium-down--one-half {
     width: 100%;
   }
@@ -213,11 +210,11 @@
   .grid-link, .grid-link--focus {
     padding-bottom: 0;
   }
-
   
 }
 
 @media (min-width: 480px) {
+  
   .collection-list-mobile {
     display: none !important;
   }
