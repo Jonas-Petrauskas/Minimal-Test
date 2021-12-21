@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 480px) {
-  .slick-carousel-mobile {
+  .slick-carousel-mobile .best-seller-carousel-mobile {
     display: block !important;
   }
   .information-columns-container{
@@ -177,22 +177,6 @@
   .grid-uniform {
     display: none !important;
   }
-  
-  
-    .best-seller-carousel-mobile{
-        margin: 0 -10px;
-
-  }
-  
-  .section-block-mobile{
-    margin: 0 10px
-  }
-  
-  
-  
-  
-  
-  
 }
 
 /* Collecion-list-mobile */
