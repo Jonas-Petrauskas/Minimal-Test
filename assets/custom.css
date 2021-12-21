@@ -91,7 +91,7 @@
 }
 
 @media (min-width: 480px) {
-  .slick-carousel-mobile{
+  .slick-carousel-mobile, .best-seller-carousel-mobile {
     display: none !important;
   }
 }
@@ -184,12 +184,7 @@
   .section-block-mobile{ 
     margin: 0 10px 
   }
-  
-  .slick-next, .slick-prev {
-    position: static !important;
-  }
 }
-
 
 /* Collecion-list-mobile */
 
