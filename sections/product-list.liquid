@@ -76,6 +76,8 @@
       </div>
    
     {% endfor %}
+   
+   {% comment %}
     
     {% for block in section.blocks limit: section.blocks.size %}
       {% assign featured = block.settings.collection %}
@@ -83,6 +85,8 @@
         {% include 'collection-grid-item' %}
       </div>
     {% endfor %}
+   
+   {% endcomment %}
   </div>
 
 
