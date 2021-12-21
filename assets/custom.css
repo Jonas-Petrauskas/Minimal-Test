@@ -197,12 +197,13 @@
   .collection-list-mobile {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+/*     grid-gap: 10px; */
     grid-row: auto auto;
   }
   
   .collection-list-uniform {
     padding-left: 10px;
+    padding-right: 10px;
   }
   
   .medium-down--one-half {
