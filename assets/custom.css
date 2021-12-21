@@ -199,11 +199,8 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     padding: 0 20px;
-/*     grid-row: auto auto; */
   }
-  
-  .collection-list-uniform {
-  }
+
   
   .medium-down--one-half {
     width: 100%;
