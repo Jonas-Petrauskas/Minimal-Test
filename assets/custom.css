@@ -208,12 +208,7 @@
     grid-column: 1 / 2; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
   grid-row: 1 / 2;
   }
-  
-  .collection-list-uniform {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  }
+
   
 }
 
