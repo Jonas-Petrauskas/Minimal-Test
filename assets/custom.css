@@ -195,7 +195,6 @@
 
 @media (max-width: 480px) {
   .collection-list-mobile {
-    border: 2px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row: auto auto;
