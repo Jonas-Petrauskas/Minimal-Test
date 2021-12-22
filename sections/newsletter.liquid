@@ -53,7 +53,7 @@
 <!-- Mobile part  -->
 
 
-<div class="mobile-newsletter">
+<div class="mobile-newsletter newsletter-grid__item" >
   <div class="mobile-newsletter-text">
     {% unless section.settings.heading == blank %}
     <div class="">
@@ -75,7 +75,7 @@
       {% else %}
         <input type="hidden" name="contact[tags]" value="newsletter">
         <div class="">
-          <label for="Email" class="">{{ 'contact.form.email' | t }}</label>
+          <!-- <label for="Email" class="">{{ 'contact.form.email' | t }}</label> -->
           <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="Email" class="input-group-field" aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}" autocorrect="off" autocapitalize="off">
           <span class="input-group-btn">
             <button type="submit" class="btn" name="commit" id="subscribe">{{ 'general.newsletter_form.submit' | t }}</button>
